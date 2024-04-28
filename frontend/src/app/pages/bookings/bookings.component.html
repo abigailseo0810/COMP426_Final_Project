@@ -1,0 +1,26 @@
+<div class="card">
+    <p id="title">Book Task</p>
+    <form [formGroup]="appointmentForm" (ngSubmit)="scheduleMeeting()">
+        <div class="form-group">
+            <label for="appointmentTime">Task Time</label>
+            <input
+                type="datetime-local"
+                id="appointmentTime"
+                formControlName="appointmentTime"
+            />
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input  
+                type="email"
+                id="email"
+                class="form-control"
+                formControlName="email"
+            />
+    </div>
+    <br/>
+    <button type="submit" id="schedule-button">Schedule Task</button>
+
+
+    </form>
+</div>
