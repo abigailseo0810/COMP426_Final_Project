@@ -9,6 +9,12 @@ const { List, Task } = require('./db/models')
 //load middleware
 app.use(bodyParser.json());
 
+app.use(function(req, res, next) {
+    res.header("Access-Control-Allow-Origin", "*"); 
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    next();
+  });
+
 app.get('/lists', (req, res) => {
     //return array of all lists in the db
     List.find({}).then((lists) => {
