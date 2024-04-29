@@ -7,11 +7,11 @@ Taskmaster is a task manager application with additional features including a we
 # How to Use:
 
 **General:**
-- Users must log in to access their personal dashboard
+- Users must log in or sign up to access their personal dashboard
 
 **Task Management:**
-  - Click the "Create Group" button to create a new category of your choice
-  - Organize tasks into categories and subcategories
+  - Click the "+ New List" button to create a list of your choice
+  - Organize tasks
   - Users can add, edit, or remove tasks
 
 **Weather Widget:**
