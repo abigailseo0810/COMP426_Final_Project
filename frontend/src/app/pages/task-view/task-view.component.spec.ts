@@ -8,7 +8,9 @@ describe('TaskViewComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [TaskViewComponent]
+      imports: [TaskViewComponent],
+      teardown: {destroyAfterEach: false}
+
     })
     .compileComponents();
     

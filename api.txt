@@ -1,5 +1,0 @@
-https://developers.google.com/calendar/api/guides/overview
-^^Link to Google Calendar API  
-
-metadata for a single calendar is represented by a Calendar resource
-
