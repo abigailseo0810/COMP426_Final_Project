@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common'
 import { TaskService } from '../../task.service';
-
-
+import { NgModel } from '@angular/forms';
 @Component({
   selector: 'app-task-view',
   standalone: true,

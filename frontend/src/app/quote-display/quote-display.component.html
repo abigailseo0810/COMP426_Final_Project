@@ -1,0 +1,10 @@
+<!-- src/app/quote-display/quote-display.component.html -->
+<div>
+    <p><strong>"{{ quote.content }}"</strong></p>
+    <p>- {{ quote.author }}</p>
+    <button (click)="fetchQuote()"></button>
+  </div>
+  <ng-template #loading>
+    <p>Loading...</p>
+  </ng-template>
+  
