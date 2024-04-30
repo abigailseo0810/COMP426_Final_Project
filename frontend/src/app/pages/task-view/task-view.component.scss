@@ -10,6 +10,7 @@
     font-size: 36px;
     font-weight: bold;
     color: #333;
+    letter-spacing: 2px;
 }
 
 .centered-content{
@@ -68,6 +69,7 @@
 }
 
 .list-menu{
+    font-family: 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
     margin-top: 15px;
@@ -94,6 +96,7 @@
 }
 
 .task {
+    font-family: 'Times New Roman', Times, serif;
     background: white;
     padding: 5px 10px;
     border-radius: 5px;
